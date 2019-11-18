@@ -21,5 +21,5 @@ Project 2 (Game Development) for Human Computer Interaction
 
 ## Group Picture 
 
-//insert picture here 
+!.[](group.picture_Projects)
 
