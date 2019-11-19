@@ -1,6 +1,8 @@
 # hci-teamID-3
 Project 2 (Game Development) for Human Computer Interaction
 
+## 
+
 
 ## Sketch
 ![](p2.sketch.png)
@@ -12,6 +14,14 @@ Project 2 (Game Development) for Human Computer Interaction
 
   Once the user is ready to play, they will click the "Play Game" button.  This action item will begin the game and the user must click on answer choices in response to the trivia question on the screen.  The game will go question by question, meaning that after answering the question, the game will give the user feedback of their answer choice.  If user answered correctly, then the answer button/choice will highlight green and the user will also receive a "check" sound effect.  However, if the user answers incorrectly, the answer button/choice will highlight red and the user will also receive a buzzer sound effect.  Despite whether they answered correctly or not, after receiving feed back on the question, the game will move on to the next question till the round ends.  
  
+## How far did you go with implementation? 
+
+At the moment, we have a rough sketch (located above) of what the game interface would look like as well as the main functionality of the game.  The game would be designed in REACT using their libraries.  
+
+## Plan to move forward
+
+
+
 
 ## Team Members 
 
