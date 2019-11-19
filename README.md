@@ -4,10 +4,10 @@ Project 2 (Game Development) for Human Computer Interaction
 ## Links 
 
 * Github Repository:  https://github.com/hci-team-id-3/P2.3
-
-
+* Presentation Link:  https://hci-team-id-3.github.io/P2.3/
 
 ## Sketch
+
 ![](p2.sketch.png)
 
 
@@ -19,16 +19,16 @@ Project 2 (Game Development) for Human Computer Interaction
  
 ## How far did you go with implementation? 
 
-At the moment, we have a rough sketch (located above) of what the game interface would look like as well as the main functionality of the game.  The game would be designed in REACT using their libraries.  
+At the moment, we have a rough sketch (located above) of what the game interface would look like as well as the main functionality of the game.  The game would be designed primarily in HTML, CSS, and JavaScript libraries.  
 
 ## Plan to move forward
+Plan to move forward would be first developing a game prototype.  Then determine what technology/languages we would need to use to create the user interface.  After having a very basic game prototype done, we would continue to enhance the game design to look more appealing to the user.  
 
-* Jason Mba:  
-* Michael Kiros 
-* Ukoh Ndukwo
-* John Yucetas
-* Pratik Patel
-
+* Jason Mba:  Questions & Results Screen 
+* Michael Kiros:  Log-in scren 
+* Ukoh Ndukwo:  Leaderboard screen
+* John Yucetas:  Main Menu screen
+* Pratik Patel:  How to play screen
 
 ## Team Members 
 
