@@ -1,7 +1,10 @@
 # hci-teamID-3
 Project 2 (Game Development) for Human Computer Interaction
 
-## 
+## Links 
+
+* Github Repository:  https://github.com/hci-team-id-3/P2.3
+
 
 
 ## Sketch
@@ -20,7 +23,11 @@ At the moment, we have a rough sketch (located above) of what the game interface
 
 ## Plan to move forward
 
-
+* Jason Mba:  
+* Michael Kiros 
+* Ukoh Ndukwo
+* John Yucetas
+* Pratik Patel
 
 
 ## Team Members 
