@@ -8,7 +8,10 @@ Project 2 (Game Development) for Human Computer Interaction
 
 ## Sketch
 
-![](p2.sketch.png)
+![Flow of Game Screens](P2.3.sketch.PNG)
+
+
+![Main Menu prototype](p2.sketch.png)
 
 
 ## General Description of the Game
