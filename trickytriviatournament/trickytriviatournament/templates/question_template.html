@@ -5,13 +5,66 @@
     <title>Question ID</title>
 </head>
 <body>
+<script>
+    function validateAnswerChoice() {
+        if(document.getElementById('inputChoice1').checked) {
+            var selected_answer = document.getElementById('choice1').title;
+            if (selected_answer == {{ question.answer }}) {
+                //alert("NICEEE");
+                alert("Correct Answer!");
+                window.location.href = "http://127.0.0.1:8000/question/" + {{question.id}};
+            }
+            else {
+                alert("Incorrect Answer!");
+                window.location.href = "http://127.0.0.1:8000/question/" + {{question.id}};
+            }
+        }
+        else if(document.getElementById('inputChoice2').checked) {
+            var selected_answer = document.getElementById('choice2').title;
+            if (selected_answer == {{ question.answer }}) {
+                //alert("NICEEE");
+                alert("Correct Answer!");
+                window.location.href = "http://127.0.0.1:8000/question/" + {{question.id}};
+            }
+            else {
+                alert("Incorrect Answer!");
+                window.location.href = "http://127.0.0.1:8000/question/" + {{question.id}};
+            }
+        }
+        else if(document.getElementById('inputChoice3').checked) {
+            var selected_answer = document.getElementById('choice3').title;
+            if (selected_answer == {{ question.answer }}) {
+                //alert("NICEEE");
+                alert("Correct Answer!");
+                window.location.href = "http://127.0.0.1:8000/question/" + {{question.id}};
+            }
+            else {
+                alert("Incorrect Answer!");
+                window.location.href = "http://127.0.0.1:8000/question/" + {{question.id}};
+            }
+        }
+        else if(document.getElementById('inputChoice4').checked) {
+            var selected_answer = document.getElementById('choice4').title;
+            if (selected_answer == {{ question.answer }}) {
+                //alert("NICEEE");
+                alert("Correct Answer!");
+                window.location.href = "http://127.0.0.1:8000/question/" + {{question.id}};
+            }
+            else {
+                alert("Incorrect Answer!");
+                window.location.href = "http://127.0.0.1:8000/question/" + {{question.id}};
+            }
+        }
+
+    }
+</script>
     <div>
             <h3>{{ question.category }}</h3>
             <p>{{ question.question }}</p><br>
-            <input type = "radio">{{ question.choice1 }}<br>
-            <input type = "radio">{{ question.choice2 }}<br>
-            <input type = "radio">{{ question.choice3 }}<br>
-            <input type = "radio">{{ question.choice4 }}<br>
+            <input type = "radio" id = "inputChoice1"><label id = "choice1" title="1" value = "1" >{{ question.choice1 }}</label><br>
+            <input type = "radio" id = "inputChoice2"><label id = "choice2" title="2">{{ question.choice2 }}</label><br>
+            <input type = "radio" id = "inputChoice3"><label id = "choice3" title="3">{{ question.choice3 }}</label><br>
+            <input type = "radio" id = "inputChoice4"><label id = "choice4" title="4">{{ question.choice4 }}</label><br>
             <button onclick = "validateAnswerChoice()">Submit</button>
     </div>
 </body>
