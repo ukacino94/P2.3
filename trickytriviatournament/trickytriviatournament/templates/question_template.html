@@ -1,4 +1,4 @@
-{% if user.is_authenticated %}
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -7,13 +7,18 @@
     <title>Question ID</title>
 </head>
 <body>
-    <h3>Insert Category Name</h3>
-    <p>What is </p>
+    <div>
+            <h3>Insert Category Name</h3>
+            <p>Insert Question</p><br>   
+            <input type = "radio">Choice 1<br>
+            <input type = "radio">Choice 2<br>
+            <input type = "radio">Choice 3<br>
+            <input type = "radio">Choice 4<br>
+            <button onclick = "validateAnswerChoice()">Submit</button>
 
+    </div>
 </body>
 </html>
 
-{% else %}
 <!-- Redirect to login page -->
 <meta http-equiv="Refresh" content="0; url=/accounts/login"/>
-{% endif %}
