@@ -11,3 +11,8 @@ def index(request: HttpRequest) -> HttpResponse:
 	return render(request, 'main_menu.html', {
 
 	})
+
+def how_to_play(request: HttpRequest) -> HttpResponse:
+	return render(request, 'howtoplay.html', {
+
+	})
