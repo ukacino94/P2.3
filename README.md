@@ -33,6 +33,12 @@ Plan to move forward would be first developing a game prototype.  Then determine
 * John Yucetas:  Main Menu screen
 * Pratik Patel:  How to play screen
 
+## Task Description
+Users will answer questions from the website, with a popup notifiying them if they got a question right or wrong.
+
+## Hypothesis
+Users will be able to gauge how to play the game using the how to play page on the website. Users will then be able to play the game by answering questions. 
+
 ## Team Members 
 
 * Jason Mba
