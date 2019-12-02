@@ -16,10 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from .views import index
+from .views import index, how_to_play
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index),
+    path('howtoplay/', how_to_play),
     path('accounts/', include('django.contrib.auth.urls'))
 ]
