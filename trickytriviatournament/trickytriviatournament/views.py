@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpRequest, HttpResponse
 
+from .models import Question
+
 def index(request: HttpRequest) -> HttpResponse:
 	"""
 	The index page, '/', renders the main_menu.html file
@@ -15,4 +17,11 @@ def index(request: HttpRequest) -> HttpResponse:
 def how_to_play(request: HttpRequest) -> HttpResponse:
 	return render(request, 'howtoplay.html', {
 
+	})
+
+def question(request: HttpRequest, index = 1) -> HttpResponse:
+	question = Question.objects.all()[index];
+	return render(request, 'question_template.html', {
+		'index': index,
+		'question': question
 	})
